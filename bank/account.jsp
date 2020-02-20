@@ -10,7 +10,6 @@
             <link href="tabs.css" rel="stylesheet" type="text/css" /> 
     </head>
     <body>
-
     <div class="topnav">
         <a href="#">Link</a>
         <a href="#">Link</a>
@@ -28,6 +27,7 @@
                 <li><a href="viewTransactions.jsp"><span>View Transactions</span></a></li>
                 <li><a href="extProfile.jsp"><span>Profile</span></a></li>
                 <li><a href="accmgmt.jsp"><span>Account Management</span></a></li> 
+                <li><a href="help.jsp"><span>Help and Support Center</span></a></li>
                 <li><a href="login.jsp"><span>Logout</span></a></li>       
             </ol>
             <div align="center">

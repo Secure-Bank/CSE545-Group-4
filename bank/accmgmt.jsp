@@ -26,6 +26,7 @@
 		<li><a href="viewTransactions.jsp"><span>View Transactions</span></a></li>
 		<li><a href="profile.jsp"><span>Profile</span></a></li>
 		<li class="current"><a href="accmgmt.jsp"><span>Account Management</span></a></li>
+		<li><a href="help.jsp"><span>Help and Support Center</span></a></li>
 		<li><a href="<c:url value='/j_spring_security_logout'/>"><span>Logout</span></a></li>  
 	</ol>
 	<div align="center">
@@ -40,7 +41,6 @@
 		<tr>
 			<td>
 				<form:radiobutton path="action" value="create"/>Create a new account
-				
 			</td>
 			<td>
 				<form:radiobutton path="action" value="delete"/>Select an account to delete 
@@ -55,7 +55,7 @@
 	    		</form:select>
 			</td>
 			<td>
-				<input type="submit" value="Submit Modification Request">
+				<input type="submit" id="modifybtn" value="Submit Modification Request">
 			</td>
 		</tr>
 		</table>

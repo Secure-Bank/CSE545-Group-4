@@ -82,6 +82,7 @@
         <li  class="current"><a href="viewTransactions.jsp"><span>View Transactions</span></a></li>
         <li><a href="profile.jsp"><span>Profile</span></a></li>
         <li><a href="accmgmt.jsp"><span>Account Management</span></a></li> 
+        <li><a href="help.jsp"><span>Help and Support Center</span></a></li>
         <li><a href="<c:url value='/j_spring_security_logout'/>"><span>Logout</span></a></li>   
     </ol>
     <center><h2>View Transactions</h2></center>
