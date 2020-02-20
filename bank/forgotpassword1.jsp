@@ -39,7 +39,6 @@
         <div id="login-box">
             <h3> Forgot Password </h3>
             <form:form name="frm" action="sendtoemailforgotpassword"  method="post" onSubmit="return validateForm()">
-            
             <table>           
                 <tr>
                     <td>Email:</td>

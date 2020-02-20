@@ -29,8 +29,8 @@
 		<center><h1>Welcome to Sun Financial</h1></center>
 		<div id="login-box">
 			<h3>Welcome</h3> 
-			<form name='loginForm'
-			  action="<c:url value='/j_spring_security_check' />" method='POST'>
+			<!-- <form name='loginForm'
+			  action="<c:url value='/j_spring_security_check' />" method='POST'> -->
 			<table>
 				<tr>
 					<td>User:</td>
@@ -53,7 +53,7 @@
 				</tr>
 				<tr>						
 			  </table>
-			</form>
+			<!-- </form> -->
 			<a href="forgotpassword1.jsp">Forgot username/password?></a><br>
 			<a href="signup.jsp">Not enrolled? Sign up now. ></a>
 		</div> 

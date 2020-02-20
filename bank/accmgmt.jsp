@@ -34,31 +34,23 @@
 	<form:form  method="post" commandName="form" >
 		<table>	
 		<tr>
-		<td colspan="2">
-		<label color ="Red"><font color="red">${statustext}<font></label>
-		</td>
-		</tr>
-		<tr>
 			<td>
-				<form:radiobutton path="action" value="create"/>Create a new account
+				<input type="radio" id="createacc" name="modify" value="create"/>Create a new account
 			</td>
 			<td>
-				<form:radiobutton path="action" value="delete"/>Select an account to delete 
-				
+				<input type="radio" id="deleteacc" name="modify" value="delete"/>Select an account to delete				
 			</td>
 		</tr>
 		
-		<tr>
+<!-- 		<tr>
 			<td>
 			  <form:select name="selectedAccount" path="account">
 					<form:options items="${listOfAccounts}"></form:options>
 	    		</form:select>
 			</td>
-			<td>
-				<input type="submit" id="modifybtn" value="Submit Modification Request">
-			</td>
-		</tr>
+			</tr> -->
 		</table>
+		<input type="submit" id="modifybtn" value="Submit Modification Request"><br><br>
 	</form:form>
 	</div>
    </div>
